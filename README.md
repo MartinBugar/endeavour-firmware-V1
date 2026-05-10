@@ -126,11 +126,11 @@ processor `ATmega2560`.
 ## Build & flash
 
 ```bash
-arduino-cli compile --fqbn arduino:avr:mega TANK.ino
-arduino-cli upload  --fqbn arduino:avr:mega -p COM5 TANK.ino
+arduino-cli compile --fqbn arduino:avr:mega Endeavour.ino
+arduino-cli upload  --fqbn arduino:avr:mega -p COM5 Endeavour.ino
 ```
 
-Or just open `TANK.ino` in the Arduino IDE.
+Or just open `Endeavour.ino` in the Arduino IDE.
 
 ---
 
@@ -285,7 +285,7 @@ These constants **must match the controller firmware byte-for-byte**.
 
 ---
 
-## Tweakable parameters (top of `TANK.ino`)
+## Tweakable parameters (top of `Endeavour.ino`)
 
 | `#define`                | Default | What it does                                       |
 |--------------------------|---------|----------------------------------------------------|
@@ -351,7 +351,7 @@ S1/S2/S3/S4 behavior table.
 
 ```
 .
-├── TANK.ino    # Firmware (single sketch)
+├── Endeavour.ino    # Firmware (single sketch)
 ├── README.md   # This file
 └── .gitignore
 ```
