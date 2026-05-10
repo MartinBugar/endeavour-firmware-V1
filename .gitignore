@@ -1,0 +1,33 @@
+# Arduino build output
+build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.lst
+*.map
+
+# Arduino IDE backup files
+*.ino~
+*.bak
+
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# KiCad backups
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+fp-info-cache
+
+# Large archives (kept locally only)
+*.rar
+*.zip
+*.7z
+
+# Hardware schematics / boards kept locally only
+ENDEAVOUR_TITANBOARD_V3/
